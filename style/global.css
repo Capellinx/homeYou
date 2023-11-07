@@ -1,3 +1,4 @@
+/* config */
 :root {
     --bg-priamry: #FFFFFF;
     --bg-secondary: #F9F9F9;
@@ -26,6 +27,12 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.title-section,
+.paragaph-section,
+.galery-images {
+    margin-top: 3.0rem;
 }
 
 /* Header */
@@ -128,17 +135,11 @@ header nav ul {
 .galery-design {
     width: 100%;
     background-color: var(--bg-secondary);
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.galery-design h2,
-.galery-design p,
-.galery-images {
-    margin-top: 3.0rem;
+    padding-bottom: 6.0rem;
 }
 
 .galery-design h2 {
@@ -158,3 +159,20 @@ header nav ul {
     flex-direction: column;
 }
 
+.orçament-section p,
+.galery-design p {
+    text-align: center;
+    width: 70.0rem;
+}
+
+.orçament-section button {
+    padding: 1.0rem;
+    width: 22.5rem;
+    margin-top: 4.0rem;
+    font-size: 1.8rem;
+    border: 1px solid var(--btn-bg-primary);
+    background-color: transparent;
+    border-radius: .3rem;
+    color: var(--fc-primary);
+    cursor: pointer;
+}
