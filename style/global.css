@@ -49,7 +49,29 @@ header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4.0rem;
+    gap: 2.8rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--fc-primary);
+    position: relative;
+    padding: 0 10px;
+}
+
+header nav a::after {
+    content: '';
+    position: absolute;
+    background-color: var(--btn-bg-primary);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -30px;  
+    transition: 0.3s;
+}
+
+header nav a:hover::after {
+    width: 100%;
 }
 
 /* Start page*/
@@ -90,6 +112,14 @@ header nav ul {
     border-radius: .3rem;
     color: var(--fc-white);
     cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+.texts-primary button:hover {
+    background-color: transparent;
+    color: var(--fc-primary);
+    border: 1px solid var(--btn-bg-primary);
 }
 
 .texts-primary a {
@@ -150,22 +180,23 @@ header nav ul {
     margin-left: 1.0rem;
 }
 
-/* section orçamento */
+/* section budget */
 
-.orçament-section {
+.budget-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 6.0rem;
 }
 
-.orçament-section p,
+.budget-section p,
 .galery-design p {
     text-align: center;
     width: 70.0rem;
 }
 
-.orçament-section button {
+.budget-section button {
     padding: 1.0rem;
     width: 22.5rem;
     margin-top: 4.0rem;
@@ -175,4 +206,36 @@ header nav ul {
     border-radius: .3rem;
     color: var(--fc-primary);
     cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+.budget-section button:hover {
+    background-color: #272727;
+    border: none;
+    color: var(--fc-white);
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.0rem;
+    height: 25.0rem;
+}
+
+footer ul li {
+    line-height: 3.0rem;
+}
+
+footer ul li {
+    font-weight: normal;
+    transition: 0.2ms ease-in;
+}
+
+footer ul li:hover {
+    font-weight: bold;
 }

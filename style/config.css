@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: 1.6rem;
@@ -20,4 +23,16 @@ a {
 
 p{
     display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #272727;
 }

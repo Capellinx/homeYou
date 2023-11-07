@@ -5,33 +5,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homeYou</title>
+    <title>HomeYou</title>
+    <link rel="shortcut icon" href="/public/svg/Icon-Outline-home.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/config.css">
     <link rel="stylesheet" href="/style/global.css">
 </head>
 <body>
     <header>
-        <h3>HOMEYOU</h3>
+        <div class="logo">
+            <img src="/public/svg/Icon-Outline-home.svg" alt="logo HomeYou" style="background-color: #272727;">
+            <a href="index.html">
+                <h3>HOMEYOU</h3>
+            </a>
+        </div>
         <nav>
             <ul class="list-">
-                <li>Início</li>
-                <li>Galeria</li>
-                <li>Contato</li>
                 <li>
-                    <img 
-                    src="/public/svg/fi_user.svg" 
-                    alt="Icone de usuário">
+                    <a href="#">Início</a>
                 </li>
                 <li>
-                    <img 
-                    src="/public/svg/fi_love.svg" 
-                    alt="Icone de coração">
+                    <a href="#galery">Galeria</a>
                 </li>
                 <li>
-                    <img 
-                    src="/public/svg/fi_search.svg" 
-                    alt="Icone de pesquisa">
+                    <a href="#contato">Contato</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img 
+                        src="/public/svg/fi_user.svg" 
+                        alt="Icone de usuário">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img 
+                        src="/public/svg/fi_love.svg" 
+                        alt="Icone de coração">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img 
+                        src="/public/svg/fi_search.svg" 
+                        alt="Icone de pesquisa">
+                    </a>
                 </li>
             </ul>
         </nav>        
@@ -61,7 +79,7 @@
                 <a href="#">Quero saber mais sobre os designs</a>
             </div>
         </section>
-        <section class="galery-design">
+        <section class="galery-design" id="galery">
             <div class="texts-galery">
                 <h2 class="title-section">Galeria</h2>
                 <p class="paragaph-section">Se você está entediado com a aparência da decoração de interiores da casa comuns,
@@ -75,11 +93,33 @@
                 </figure>
             </div>
         </section>
-        <section class="orçament-section">
+        <section class="budget-section" id="contato">
             <h2 class="title-section">Orçamento</h2>
             <p class="paragaph-section">Interessado em entrar em contato com um de nossos profissionais</p>
             <button>Entre em contato</button>
         </section>
     </main>
+    <footer>
+        <img src="/public/svg/Icon-Outline-home.svg" alt=""
+        style="background-color: #272727;">
+        <ul>
+            <li>Produtos</li>
+            <li>Mobilia</li>
+            <li>Segurança</li>
+            <li>Design Interior</li>
+        </ul>
+        <ul>
+            <li>Mais Informações</li>
+            <li>Contrato</li>
+            <li>Sobre nós</li>
+            <li>Termos e Condições</li>
+        </ul>
+        <ul>
+            <li>Redes Sociais</li>
+            <li>Pinterest</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+        </ul>
+    </footer>
 </body>
 </html>
