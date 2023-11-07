@@ -19,6 +19,11 @@ body {
     margin: 0 auto;
 }
 
+p, 
+h1 {
+    width: 50.0rem;
+}
+
 /* Header */
 
 header {
@@ -49,11 +54,6 @@ header nav ul {
     background-color: var(--bg-secondary);
 }
 
-.texts-primary h1,
-p {
-    width: 50.0rem;
-}
-
 .texts-primary h1 {
     font-size: 4.0rem;
     font-weight: 600;
@@ -66,7 +66,7 @@ p {
 }
 
 .texts-primary button,
-p {
+.texts-primary p {
     margin-top: 3.0rem
 }
 
@@ -122,6 +122,6 @@ p {
 /* Galery Design */ 
 
 .galery-design h2,
-p{
+.galery-design p{
     text-align: center;
 }
