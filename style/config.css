@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+a {
+    cursor: pointer;
+}
+
+p, 
+a {
+    display: block;
+}

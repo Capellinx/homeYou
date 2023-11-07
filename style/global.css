@@ -1,0 +1,127 @@
+:root {
+    --bg-priamry: #FFFFFF;
+    --bg-secondary: #F9F9F9;
+    --bg-blackLigth: #272727;
+    --btn-bg-primary: #272727;
+
+    --fc-primary: #272727;
+    --fc-secondary: #797979;
+    --fc-white: #FFFFFF;
+
+    --ff-montserrat: 'Montserrat', sans-serif;
+
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--ff-montserrat);
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.0rem;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.0rem;
+}
+
+/* Start page*/
+
+.begining-site {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.0rem ;
+
+    background-color: var(--bg-secondary);
+}
+
+.texts-primary h1,
+p {
+    width: 50.0rem;
+}
+
+.texts-primary h1 {
+    font-size: 4.0rem;
+    font-weight: 600;
+}
+
+.texts-primary p {
+    margin-top: 1.6rem;
+    font-size: 1.8rem;
+    color: var(--fc-secondary);
+}
+
+.texts-primary button,
+p {
+    margin-top: 3.0rem
+}
+
+.texts-primary button {
+    padding: 1.0rem;
+    width: 22.5rem;
+    font-size: 1.8rem;
+    border: 1px solid transparent;
+    background-color: var(--btn-bg-primary);
+    border-radius: .3rem;
+    color: var(--fc-white);
+    cursor: pointer;
+    
+}
+
+.texts-primary a {
+    margin-left: 10.0rem;
+    color: var(--fc-primary);
+}
+
+/* minimalist section */    
+
+.minimalist-house {
+    margin-top: 17.0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.0rem;
+}
+
+.minimalist-house img {
+    box-shadow: -47px -44px 0px 0px var(--bg-blackLigth);
+}
+
+.text-design {
+    background-color: var(--bg-blackLigth);
+    color: var(--fc-white);
+    padding: 2.0rem;
+    border-radius: .5rem;
+}
+
+.text-design h3 {
+    font-size: 2.5rem;
+}
+
+.minimalist-design a {
+    display: block;
+    margin-top: 2.4rem;
+    color: var(--fc-primary);
+}
+
+/* Galery Design */ 
+
+.galery-design h2,
+p{
+    text-align: center;
+}
